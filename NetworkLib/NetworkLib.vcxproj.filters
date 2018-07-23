@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Network">
+      <UniqueIdentifier>{e81a5030-95b5-414c-9ab3-faaaf573afaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{d77ea15f-ee86-4c0c-bc21-7b11e6620371}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Ftp">
+      <UniqueIdentifier>{0b55b6ad-76de-490b-8843-ce67a50fca44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Address">
+      <UniqueIdentifier>{fc273342-a17d-43da-ba90-2dfb14be6322}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Protocol">
+      <UniqueIdentifier>{fa5771c3-7acd-46b7-96c0-c9415dca1d0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Socket">
+      <UniqueIdentifier>{8a701cd6-e958-4fc6-aa6b-db5d3fc53275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Resolver">
+      <UniqueIdentifier>{ea590d6e-debb-4259-a60c-a68845aefbea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Parser">
+      <UniqueIdentifier>{6fef82b6-0fb1-47c7-9e2a-181b0e8ac2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network\Ftp\Parser">
+      <UniqueIdentifier>{2ef3856f-0088-4977-8418-7a49b4ef0f5a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Util\Buffer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Error.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\IO.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Locale.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Serializer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\String.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\System.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Thread.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Time.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\Socket.h">
+      <Filter>Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Socket\StreamSocket.h">
+      <Filter>Network\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Endpoint.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Error.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Resolver\Entry.h">
+      <Filter>Network\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Resolver\Query.h">
+      <Filter>Network\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Resolver\Resolver.h">
+      <Filter>Network\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Resolver\Result.h">
+      <Filter>Network\Resolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Protocol\Tcp.h">
+      <Filter>Network\Protocol</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Parser\DQuotedParser.h">
+      <Filter>Network\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Parser\NumberParser.h">
+      <Filter>Network\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Parser\Parser.h">
+      <Filter>Network\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Parser\TimestampParser.h">
+      <Filter>Network\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Parser\FileListParser.h">
+      <Filter>Network\Ftp\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Parser\FileNameParser.h">
+      <Filter>Network\Ftp\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Parser\FileStatusParser.h">
+      <Filter>Network\Ftp\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Parser\HostPortParser.h">
+      <Filter>Network\Ftp\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Parser\UserGroupNameParser.h">
+      <Filter>Network\Ftp\Parser</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Client.h">
+      <Filter>Network\Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Cmd.h">
+      <Filter>Network\Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Const.h">
+      <Filter>Network\Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Error.h">
+      <Filter>Network\Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Reply.h">
+      <Filter>Network\Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Ftp\Type.h">
+      <Filter>Network\Ftp</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Address\Address.h">
+      <Filter>Network\Address</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Address\AddressV4.h">
+      <Filter>Network\Address</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
